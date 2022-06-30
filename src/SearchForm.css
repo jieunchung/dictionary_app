@@ -1,0 +1,10 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.hints {
+  display: block;
+  text-align: left;
+}
