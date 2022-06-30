@@ -1,0 +1,26 @@
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  font-family: "Mulish", sans-serif;
+}
+
+.card-heading {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.hints {
+  display: block;
+  text-align: left;
+}
