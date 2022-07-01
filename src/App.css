@@ -13,3 +13,17 @@ h1 {
   font-weight: 900;
   font-size: 70px;
 }
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.footer {
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}

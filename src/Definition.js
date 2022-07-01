@@ -1,14 +1,17 @@
 import React from "react";
+import "./Definition.css";
 
 export default function Definition(props) {
   return (
     <div>
-      <p className="part-of-speech">({props.data.partOfSpeech})</p>
+      <p className="part-of-speech ubuntu">{props.data.partOfSpeech}</p>
       {props.data.definitions.map(function (definitions, index) {
         return (
           <div key={index}>
-            <p className="definition">{definitions.definition}</p>
-            <p className="example">{definitions.example}</p>
+            <ul>
+              <li className="definition ubuntu">{definitions.definition}</li>
+              <p className="example ubuntu">{definitions.example}</p>
+            </ul>
           </div>
         );
       })}

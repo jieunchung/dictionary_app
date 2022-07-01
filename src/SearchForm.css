@@ -4,6 +4,10 @@
   padding: 50px 0;
 }
 
+.form-input {
+  font-size: 13px;
+}
+
 .hints {
   display: block;
   text-align: left;

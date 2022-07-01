@@ -34,7 +34,9 @@ export default function SearchForm() {
             placeholder="nature"
             onChange={handleChange}
           />
-          <small className="hints">e.g. summer, kitten, flower, hiking</small>
+          <small className="hints">
+            e.g. ambiguous, pique, tangible, hoist
+          </small>
         </form>
       </div>
       <Info data={info} />

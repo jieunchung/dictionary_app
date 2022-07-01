@@ -1,0 +1,9 @@
+.part-of-speech {
+  font-style: italic;
+}
+
+.example {
+  font-style: italic;
+  color: #666666;
+  font-size: 14px;
+}

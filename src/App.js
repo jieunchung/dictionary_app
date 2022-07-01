@@ -11,6 +11,16 @@ function App() {
         </div>
         <SearchForm />
       </div>
+      <footer className="footer">
+        <a
+          href="https://github.com/jieunchung/dictionary_app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>
+        <span> by Jieun Chung</span>
+      </footer>
     </div>
   );
 }
