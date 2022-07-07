@@ -6,13 +6,15 @@ export default function Synonyms(props) {
     return (
       <div className="synonyms ubuntu">
         {props.synonyms.map(function (synonym, index) {
-          return (
-            <ul>
-              <li className="synonym-li" key={index}>
-                {synonym}
-              </li>
-            </ul>
-          );
+          if (props.synonyms != null) {
+            return (
+              <ul>
+                <li key={index}>{synonym}</li>
+              </ul>
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
     );

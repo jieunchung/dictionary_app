@@ -3,6 +3,12 @@
   font-size: 14px;
 }
 
-.synonym-li {
-  list-style-type: disc;
+.synonyms ul {
+  display: inline-flex;
+  padding-left: 0.5rem;
+}
+
+.synonyms li {
+  list-style-type: none;
+  color: #377d71;
 }

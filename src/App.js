@@ -7,6 +7,7 @@ function App() {
       <div className="container">
         <div className="heading">
           <h1>/find</h1>
+          <h4>information on ...</h4>
           <p>Search a word to find out more</p>
         </div>
         <SearchForm />

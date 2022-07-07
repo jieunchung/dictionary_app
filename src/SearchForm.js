@@ -4,7 +4,7 @@ import "./SearchForm.css";
 import Info from "./Info";
 
 export default function SearchForm() {
-  const [keyword, setKeyword] = useState("seize");
+  const [keyword, setKeyword] = useState("language");
   const [info, setInfo] = useState(null);
   const [loaded, setLoaded] = useState(false);
 
@@ -38,12 +38,13 @@ export default function SearchForm() {
       <div>
         <div className="form-container">
           <form className="form-group mx-sm-3 mb-2" onSubmit={handleSubmit}>
+            <i className="material-symbols-outlined icon">search</i>
             <input
-              className="form-control form-input"
+              className="form-control form-input "
               type="search"
-              placeholder="nature"
+              placeholder={keyword}
               onChange={handleChange}
-            />
+            ></input>
             <small className="hints">
               e.g. ambiguous, pique, tangible, hoist
             </small>
