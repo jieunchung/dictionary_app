@@ -5,7 +5,7 @@ import Phonetic from "./Phonetic";
 export default function Info(props) {
   if (props.data) {
     return (
-      <div className="card w-50">
+      <div>
         <div className="card-body">
           <h2 className="word ubuntu w700">{props.data.word}</h2>
           {props.data.phonetics.map(function (phonetic, index) {
