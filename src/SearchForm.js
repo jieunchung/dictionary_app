@@ -73,6 +73,6 @@ export default function SearchForm() {
     );
   } else {
     load();
-    return "Searching";
+    return "Loading /find";
   }
 }
